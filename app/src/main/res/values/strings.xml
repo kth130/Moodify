@@ -4,9 +4,14 @@
     <string name="button_go">GO!</string>
     <string name="mood">Mood</string>
     <string name="genre">Genre</string>
-    <string name="songs">How many songs?</string>
+    <string name="songs_count">How many songs?</string>
+    <string name="search">Search..</string>
+    <string name="results">Results</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
 
     <string-array name="moods_array">
+        <item>Mood..</item>
         <item>Sad</item>
         <item>Happy</item>
         <item>Chill</item>
@@ -19,6 +24,7 @@
     </string-array>
 
     <string-array name="genres_array">
+        <item>Genre..</item>
         <item>Rock</item>
         <item>Pop</item>
         <item>Hip-Hop</item>
@@ -29,6 +35,7 @@
     </string-array>
 
     <string-array name="count_array">
+        <item>How many songs?</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
