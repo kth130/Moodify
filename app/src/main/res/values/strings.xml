@@ -10,6 +10,16 @@
     <string name="songs">Songs</string>
     <string name="albums">Albums</string>
 
+    <string name="kw_808s">808s &amp; Heartbreak</string>
+    <string name="royalty">ROYALTY</string>
+    <string name="ye">YE</string>
+    <string name="surf">Surf</string>
+    <string name="madvillainy">Madvillainy</string>
+
+
+
+
+
     <string-array name="moods_array">
         <item>Mood..</item>
         <item>Sad</item>
