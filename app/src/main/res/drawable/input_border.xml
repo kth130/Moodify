@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item><shape>
+            <stroke android:width="2dp" android:color="@color/cardview_light_background" />
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+            <corners android:radius="66dp"/>
+            <gradient
+                android:endColor="@color/cardview_light_background"
+                android:startColor="@color/cardview_light_background" />
+        </shape></item>
+        <item android:gravity="center|left" android:left="20dp" android:drawable="@drawable/ic_search_black_24dp"/>
+    </layer-list></item>
+</selector>
