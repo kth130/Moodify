@@ -463,15 +463,14 @@
                         android:textStyle="italic" />
 
                     <Button
-                        android:id="@+id/search_btn"
+                        android:id="@+id/add_btn"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginBottom="5dp"
                         android:layout_marginEnd="5dp"
-                        android:background="@drawable/button_circle"
-                        android:text="+"
+                        android:background="@drawable/ic_add_circle_black_24dp"
                         android:textColor="@color/colorAccent"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
@@ -543,8 +542,7 @@
                         android:layout_alignParentBottom="true"
                         android:layout_marginBottom="5dp"
                         android:layout_marginEnd="5dp"
-                        android:background="@drawable/button_circle"
-                        android:text="+"
+                        android:background="@drawable/ic_add_circle_black_24dp"
                         android:textColor="@color/colorAccent"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
@@ -584,7 +582,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/royalty"
+                        android:text="This is America"
                         android:textStyle="bold" />
 
                     <TextView
@@ -616,8 +614,7 @@
                         android:layout_alignParentBottom="true"
                         android:layout_marginBottom="5dp"
                         android:layout_marginEnd="5dp"
-                        android:background="@drawable/button_circle"
-                        android:text="+"
+                        android:background="@drawable/ic_add_circle_black_24dp"
                         android:textColor="@color/colorAccent"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
@@ -658,7 +655,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/kw_808s"
+                        android:text="Street Lights"
                         android:textStyle="bold" />
 
                     <TextView
@@ -679,8 +676,20 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="64dp"
-                        android:text="12 songs"
+                        android:text="3.09"
                         android:textStyle="italic" />
+                    <Button
+                        android:id="@id/add_btn"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/ic_add_circle_black_24dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -717,7 +726,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/surf"
+                        android:text="Despacito Too"
                         android:textStyle="bold" />
 
                     <TextView
@@ -728,7 +737,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Donnie Trumpet ..." />
+                        android:text="J.I.D" />
 
                     <TextView
                         android:id="@+id/textView47"
@@ -738,8 +747,21 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="60dp"
-                        android:text="16 songs"
+                        android:text="4:14"
                         android:textStyle="italic" />
+
+                    <Button
+                        android:id="@id/add_btn"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/ic_add_circle_black_24dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>
