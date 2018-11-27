@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
         btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, SearchActivity.class));
+                startActivity(new Intent(HomeActivity.this, PlaylistActivity.class));
             }
         });
 
@@ -30,7 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         btn_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, SearchActivity.class));
+                startActivity(new Intent(HomeActivity.this, PlaylistActivity.class));
             }
         });
 
