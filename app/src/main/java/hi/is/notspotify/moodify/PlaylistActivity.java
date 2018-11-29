@@ -26,8 +26,7 @@ public class PlaylistActivity extends AppCompatActivity {
         btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addSong();
-                adapter.notifyDataSetChanged();
+                startActivity(new Intent(PlaylistActivity.this, SearchActivity.class));
             }
         });
 
@@ -52,5 +51,6 @@ public class PlaylistActivity extends AppCompatActivity {
 
     public void addSong(String s) {
         songs.add(new Song(s));
+        adapter.notifyDataSetChanged();
     }
 }
