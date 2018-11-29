@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_play_circle_filled_black_24dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/song"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Song name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ic_more_vert_black_24dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+</LinearLayout>
