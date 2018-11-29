@@ -86,18 +86,18 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/album1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/madvillainy"
+                        android:text="Album"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/img1"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -106,20 +106,20 @@
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/albums"
                         android:scaleType="fitXY"
-                        android:src="@drawable/doom" />
+                        android:src="@drawable/ic_album_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/artist1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Madvillain" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView21"
+                        android:id="@+id/songs1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -145,7 +145,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/img2"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -154,28 +154,28 @@
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/albums"
                         android:scaleType="fitXY"
-                        android:src="@drawable/ye_cover" />
+                        android:src="@drawable/ic_album_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/album2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/ye"
+                        android:text="Album"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView13"
+                        android:id="@+id/artist2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Kanye West" />
+                        android:text="Artist" />
 
                     <TextView
                         android:id="@+id/textView20"
@@ -204,7 +204,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/img3"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -213,31 +213,31 @@
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/albums"
                         android:scaleType="fitXY"
-                        android:src="@drawable/royalty" />
+                        android:src="@drawable/ic_album_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/album3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/royalty"
+                        android:text="Album"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView14"
+                        android:id="@+id/artist3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Childish Gambino" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView19"
+                        android:id="@+id/songs3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -264,7 +264,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/img4"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -273,31 +273,31 @@
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/albums"
                         android:scaleType="fitXY"
-                        android:src="@drawable/kw_808s" />
+                        android:src="@drawable/ic_album_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/album4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/kw_808s"
+                        android:text="Album"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView15"
+                        android:id="@+id/artist4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Kanye West" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView18"
+                        android:id="@+id/songs4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -323,7 +323,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/img5"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -332,31 +332,31 @@
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/albums"
                         android:scaleType="fitXY"
-                        android:src="@drawable/surf" />
+                        android:src="@drawable/ic_album_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/album5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="@string/surf"
+                        android:text="Album"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/artist5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Donnie Trumpet ..." />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView17"
+                        android:id="@+id/songs5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -419,18 +419,18 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView37"
+                        android:id="@+id/song1_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="SUMMER"
+                        android:text="Song 1"
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/imageView11"
+                        android:id="@+id/song1_img"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -442,17 +442,17 @@
                         android:src="@drawable/ic_music_note_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView32"
+                        android:id="@+id/song1_artist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Brockhampton" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView31"
+                        android:id="@+id/song1_length"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -463,7 +463,9 @@
                         android:textStyle="italic" />
 
                     <Button
-                        android:id="@+id/add_btn"
+                        android:id="@+id/song1"
+                        android:tag="A"
+                        android:onClick="addSong"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
@@ -474,7 +476,6 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
-
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -492,7 +493,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/song2_img"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -504,28 +505,28 @@
                         android:src="@drawable/ic_music_note_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView38"
+                        android:id="@+id/song2_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="Sad Song"
+                        android:text="Song 2"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView33"
+                        android:id="@+id/song2_artist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Sad Band" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView34"
+                        android:id="@+id/song2_length"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -535,7 +536,9 @@
                         android:text="2:59"
                         android:textStyle="italic" />
                     <Button
-                        android:id="@id/search_btn"
+                        android:id="@+id/song2"
+                        android:tag="B"
+                        android:onClick="addSong"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
@@ -563,7 +566,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/song3_img"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -575,28 +578,28 @@
                         android:src="@drawable/ic_music_note_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView36"
+                        android:id="@+id/song3_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="This is America"
+                        android:text="Song 3"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView35"
+                        android:id="@+id/song3_artist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Childish Gambino" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView40"
+                        android:id="@+id/song3_length"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -607,7 +610,9 @@
                         android:textStyle="italic" />
 
                     <Button
-                        android:id="@id/search_btn"
+                        android:id="@+id/song3"
+                        android:tag="C"
+                        android:onClick="addSong"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
@@ -636,7 +641,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView10"
+                        android:id="@+id/song4_img"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -648,25 +653,25 @@
                         android:src="@drawable/ic_music_note_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/song4_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="Street Lights"
+                        android:text="Song 4"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView42"
+                        android:id="@+id/song4_artist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="Kanye West" />
+                        android:text="Artist" />
 
                     <TextView
                         android:id="@+id/textView43"
@@ -679,7 +684,9 @@
                         android:text="3.09"
                         android:textStyle="italic" />
                     <Button
-                        android:id="@id/add_btn"
+                        android:id="@+id/song4"
+                        android:tag="D"
+                        android:onClick="addSong"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
@@ -707,7 +714,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView43"
+                        android:id="@+id/song5_img"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_alignParentStart="true"
@@ -719,28 +726,28 @@
                         android:src="@drawable/ic_music_note_white_24dp" />
 
                     <TextView
-                        android:id="@+id/textView44"
+                        android:id="@+id/song5_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="20dp"
-                        android:text="Despacito Too"
+                        android:text="Song 5"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView45"
+                        android:id="@+id/song5_artist"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_marginStart="84dp"
                         android:layout_marginTop="43dp"
-                        android:text="J.I.D" />
+                        android:text="Artist" />
 
                     <TextView
-                        android:id="@+id/textView47"
+                        android:id="@+id/song5_length"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -751,7 +758,9 @@
                         android:textStyle="italic" />
 
                     <Button
-                        android:id="@id/add_btn"
+                        android:id="@+id/song5"
+                        android:tag="E"
+                        android:onClick="addSong"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_alignParentEnd="true"
