@@ -16,8 +16,6 @@ public class SearchActivity extends AppCompatActivity {
         String number = String.valueOf(v.getTag());
         String song = "Song " + number;
         String artist = "Artist";
-        ((HomeActivity)getParent()).addSong(song, artist);
-
-
+        ((PlaylistActivity)getParent()).addSong(song);
     }
 }
