@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="25dp"
     android:paddingBottom="10dp"
     android:paddingTop="10dp">
 
     <Button
-        android:id="@+id/more"
+        android:id="@+id/play"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_weight="1"
@@ -27,9 +29,9 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/play"
-        android:layout_width="34dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/more"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/ic_more_vert_black_24dp"
         tools:layout_editor_absoluteX="58dp"

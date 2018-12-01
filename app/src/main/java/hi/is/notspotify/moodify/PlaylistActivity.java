@@ -1,5 +1,6 @@
 package hi.is.notspotify.moodify;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class PlaylistActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ArrayList<Song> songs;
     private SongAdapter adapter;
+    private int n;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,7 @@ public class PlaylistActivity extends AppCompatActivity {
         btn_search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PlaylistActivity.this, SearchActivity.class));
+                startActivityForResult(new Intent(PlaylistActivity.this, SearchActivity.class), 1);
             }
         });
 
@@ -34,14 +36,17 @@ public class PlaylistActivity extends AppCompatActivity {
 
         mRecyclerView.setHasFixedSize(true);
 
+        Intent intent = getIntent();
+        int n = intent.getIntExtra("n",0);
+        this.n = n;
+        songs = Song.createList(n);
 
-
-        songs = Song.createList(10);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
 
         adapter = new SongAdapter(songs);
 
         mRecyclerView.setAdapter(adapter);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(linearLayoutManager);
     }
 
 
@@ -49,8 +54,20 @@ public class PlaylistActivity extends AppCompatActivity {
         return songs;
     }
 
-    public void addSong(String s) {
-        songs.add(new Song(s));
+    public void addSong() {
+        Song song = new Song("Song "+(++n));
+        songs.add(song);
         adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+
+            if(resultCode == Activity.RESULT_OK){
+                addSong();
+            }
+        }
     }
 }
